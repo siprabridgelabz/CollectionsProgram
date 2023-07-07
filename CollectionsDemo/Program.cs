@@ -17,31 +17,33 @@ namespace CollectionsDemo
         //Generic - List ,dictionary,Sortedlist,stack and queue
         static void Main(string[] args)
         {
-           /* while (true)
+            while (true)
             {
-                Console.WriteLine("choose the below options");
+                Console.WriteLine("***********");
+                Console.WriteLine("Choose the below options");
                 Console.WriteLine("1-List");
                 Console.WriteLine("2-Array");
+                Console.WriteLine("***********");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
                     case 1:
+                        Console.WriteLine("***********");
                         ListDemo listDemo = new ListDemo();
                         listDemo.Adding();
-                        Console.ReadLine();
                         break;
                     case 2:
+                        Console.WriteLine("***********");
                         ArrayDemo arrayDemo = new ArrayDemo();
                         arrayDemo.Add();
-                        Console.ReadLine();
                         break;
                 }
-            }*/
-            
-            
-            ListDemo listDemo = new ListDemo();
-            listDemo.Adding();
-            Console.ReadLine();
+
+
+            }
+            // ListDemo listDemo = new ListDemo();
+            // listDemo.Adding();
+            // Console.ReadLine();
 
         }
     }
